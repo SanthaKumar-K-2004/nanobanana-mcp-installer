@@ -2,11 +2,11 @@
 # ─────────────────────────────────────────────────────────────────────────────
 #  Alpha X Solutions — nanobanana-mcp One-Line Installer
 #  Usage (one command, paste in terminal):
-#    curl -fsSL https://raw.githubusercontent.com/YOUR_ORG/YOUR_REPO/main/scripts/install.sh | bash
+#    curl -fsSL https://raw.githubusercontent.com/SanthaKumar-K-2004/YOUR_REPO/main/scripts/install.sh | bash
 # ─────────────────────────────────────────────────────────────────────────────
 set -e
 
-REPO="https://github.com/YOUR_ORG/nanobanana-mcp-installer"
+REPO="https://github.com/SanthaKumar-K-2004/nanobanana-mcp-installer"
 TMP_DIR="$(mktemp -d)"
 
 # ── Colors ────────────────────────────────────────────────────────────────────

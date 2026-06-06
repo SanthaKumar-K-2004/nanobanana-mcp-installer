@@ -9,12 +9,12 @@ One command. Any OS. Zero manual config.
 
 ### macOS / Linux
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_ORG/nanobanana-mcp-installer/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/SanthaKumar-K-2004/nanobanana-mcp-installer/main/scripts/install.sh | bash
 ```
 
 ### Windows (PowerShell)
 ```powershell
-irm https://raw.githubusercontent.com/YOUR_ORG/nanobanana-mcp-installer/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/SanthaKumar-K-2004/nanobanana-mcp-installer/main/scripts/install.ps1 | iex
 ```
 
 ### Via npx (any OS, if Node.js already installed)
@@ -87,7 +87,7 @@ npx nanobanana-mcp-installer
 
 ```bash
 # Clone this installer repo
-git clone https://github.com/YOUR_ORG/nanobanana-mcp-installer.git
+git clone https://github.com/SanthaKumar-K-2004/nanobanana-mcp-installer.git
 cd nanobanana-mcp-installer
 
 # Run installer directly
@@ -112,13 +112,13 @@ node tests/core.test.mjs
 
 ## 🚀 Push to GitHub — Checklist
 
-1. Replace `YOUR_ORG` in `scripts/install.sh` and `scripts/install.ps1` with your GitHub org/username
+1. Replace `SanthaKumar-K-2004` in `scripts/install.sh` and `scripts/install.ps1` with your GitHub org/username
 2. Push to GitHub
 3. Share the one-line command with users — that's it!
 
 ```bash
 git init
-git remote add origin https://github.com/YOUR_ORG/nanobanana-mcp-installer.git
+git remote add origin https://github.com/SanthaKumar-K-2004/nanobanana-mcp-installer.git
 git add .
 git commit -m "feat: Alpha X Solutions nanobanana-mcp installer"
 git push -u origin main

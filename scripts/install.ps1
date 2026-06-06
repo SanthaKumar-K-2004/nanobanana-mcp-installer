@@ -1,10 +1,10 @@
 # ─────────────────────────────────────────────────────────────────────────────
 #  Alpha X Solutions — nanobanana-mcp One-Line Installer (Windows PowerShell)
 #  Usage (one command, paste in PowerShell):
-#    irm https://raw.githubusercontent.com/YOUR_ORG/YOUR_REPO/main/scripts/install.ps1 | iex
+#    irm https://raw.githubusercontent.com/SanthaKumar-K-2004/YOUR_REPO/main/scripts/install.ps1 | iex
 # ─────────────────────────────────────────────────────────────────────────────
 $ErrorActionPreference = "Stop"
-$REPO = "https://github.com/YOUR_ORG/nanobanana-mcp-installer"
+$REPO = "https://github.com/SanthaKumar-K-2004/nanobanana-mcp-installer"
 $TMP  = Join-Path $env:TEMP "alphax-nano-$(Get-Random)"
 
 function ok   { param($m) Write-Host "✔  $m" -ForegroundColor Green }
