@@ -1,0 +1,19 @@
+{
+  "name": "nanobanana-mcp-installer",
+  "version": "1.0.0",
+  "description": "Alpha X Solutions — one-line auto installer for nanobanana-mcp. Run: npx nanobanana-mcp-installer",
+  "type": "module",
+  "bin": {
+    "nanobanana-mcp-installer": "./bin/install.mjs"
+  },
+  "scripts": {
+    "start": "node bin/install.mjs",
+    "test":  "node tests/core.test.mjs"
+  },
+  "keywords": ["mcp", "claude", "nanobanana", "alphax", "installer", "auto-setup"],
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
